@@ -1,0 +1,18 @@
+#se importa la biblioteca de numpy para los cálculos numéricos
+import numpy as np
+
+#se crea la variable suma y se inicia en valor 0
+suma=0
+
+#se crea un ciclo for para incrementar la variable i 
+#de uno en uno hasta el 100
+n=100
+for i in range(0,n):
+    i=i+1
+    suma=suma+i
+    print(suma)
+
+print("sumando uno a uno en un ciclo",suma)
+
+sumaGauss=n*(n+1)/2
+print("usando la ecuación de Gauss",sumaGauss)
